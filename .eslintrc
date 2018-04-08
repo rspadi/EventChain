@@ -1,0 +1,23 @@
+{
+  "extends": "rallycoding",
+  "globals": {
+    "it": true,
+    "describe": true,
+    "beforeEach": true
+  },
+  "rules": {
+    "no-useless-concat":0
+    "indent": 0,
+    "arrow-body-style": 0,
+    "no-multiple-empty-lines": 0,
+    "no-unused-vars": 0,
+    "radix": 0,
+    "padded-blocks": 0,
+    "max-len": [1, 120, 2, {
+      "ignorePattern": "^import\\s.+\\sfrom\\s.+;$",
+      "ignoreUrls": true
+    }]
+
+  }
+
+}
